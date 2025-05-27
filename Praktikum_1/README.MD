@@ -1,4 +1,4 @@
-# Praktikum 1: PENGANTAR PEMROGRAMAN BERBASIS FRAMEWORK DAN REACTJS 
+# Praktikum 1: PENGANTAR PEMROGRAMAN BERBASIS FRAMEWORK DAN REACTJS
 
 ## Step 1
 
@@ -8,7 +8,7 @@
 2. Jalankan installer dan ikuti langkah-langkah instalasi
 3. Verifikasi instalasi dengan menjalankan perintah `git --version` di terminal
 
-   ![Instalasi Git](/images/git.png)
+   ![Instalasi Git](./images/git.png)
 
 ### Instalasi VS Code
 
@@ -17,7 +17,7 @@
 3. Jalankan installer dan ikuti langkah-langkah instalasi
 4. Setelah instalasi selesai, buka VS Code
 
-   ![Instalasi VS Code](/images/vs_code.png)
+   ![Instalasi VS Code](./images/vs_code.png)
 
 ### Instalasi Next.js
 
@@ -29,7 +29,7 @@
    ```
 
 3. Ikuti instruksi yang muncul di terminal
-   ![Instalasi Next.js](/images/next.png)
+   ![Instalasi Next.js](./images/next.png)
 
 ### Instalasi Node dan NPM
 
@@ -43,7 +43,7 @@
    npm --version
    ```
 
-   ![Instalasi Node.js](/images/node_npm.png)
+   ![Instalasi Node.js](./images/node_npm.png)
 
 ### Pertanyaan
 
@@ -89,7 +89,7 @@
 
 Setelah membuat proyek Next.js baru, kita akan mendapatkan struktur direktori seperti berikut:
 
-![Struktur Direktori Hello World](/images/dir_hello_world.png)
+![Struktur Direktori Hello World](./images/dir_hello_world.png)
 
 ### Menjalankan `hello-world` (Proyek Next.js)
 
@@ -100,12 +100,12 @@ npm run dev
 ```
 
 Setelah menjalankan perintah tersebut, kita akan melihat proses compile seperti berikut:
-![Compile Next.js](/images/compile_next.png)
+![Compile Next.js](./images/compile_next.png)
 
 ### Halaman default Next.j
 
 Setelah proses compile selesai, aplikasi Next.js akan berjalan di `http://localhost:3000`. Halaman default Next.js akan muncul seperti berikut:
-![Halaman Next.js](/images/next_app.png)
+![Halaman Next.js](./images/next_app.png)
 
 ### Pertanyaan
 
@@ -279,7 +279,7 @@ export default function Home() {
 
 ### Tampilan Next.js (Setelah ditambah MyButton)
 
-![Tampilan dengan MyButton](/images/mybutton.png)
+![Tampilan dengan MyButton](./images/mybutton.png)
 
 Perubahan yang terlihat:
 
@@ -356,7 +356,6 @@ export default function Home() {
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image className="dark:invert" src="/next.svg" alt="Next.js logo" width={180} height={38} priority />
-        <Profile />
         <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2 tracking-[-.01em]">
             Get started by editing <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">src/app/page.tsx</code>
@@ -388,6 +387,9 @@ export default function Home() {
           {/* PRAKTIKUM 3: MENAMBAHKAN MY BUTTON DIDALAM HOME */}
           <MyButton />
         </div>
+
+        {/* PRAKTIKUM 3: MENAMBAHKAN PROFILE DIDALAM HOME */}
+        <Profile />
       </main>
 
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
@@ -458,7 +460,7 @@ export default function Home() {
 
 ### Tampilan Next.js (Setelah ditambah Profile)
 
-![Tampilan dengan Profile](/images/profile.png)
+![Tampilan dengan Profile](./images/profile.png)
 
 Perubahan yang terlihat:
 
