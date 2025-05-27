@@ -1,4 +1,4 @@
-# Praktikum 1
+# Praktikum 1: PENGANTAR PEMROGRAMAN BERBASIS FRAMEWORK DAN REACTJS 
 
 ## Step 1
 
