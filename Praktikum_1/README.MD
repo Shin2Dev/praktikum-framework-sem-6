@@ -1,4 +1,4 @@
-# Praktikum 1: PENGANTAR PEMROGRAMAN BERBASIS FRAMEWORK DAN REACTJS
+# Praktikum 1: Pengantar Pemrograman Berbasis Framework Dan ReactJS
 
 ## Step 1
 
